@@ -58,20 +58,20 @@
   <body onload="main()">
     <header>
       <div class="headerTitle">
-        Jeeliz Glasses
+        Garboo眼镜
         <div class="headerSubtitle">
-          VTO Widget Demo
+          虚拟试戴
         </div>
       </div>
       <div class="headerNav">
         <div class="headerNavMen">
-          Men
+          男
         </div>
         <div class="headerNavWomen">
-          Women
+          女
         </div>
         <div class="headerNavCategories">
-          Categories
+          分类
         </div>
         <div class="headerNavSearch">
           <input type="text">
@@ -92,24 +92,24 @@
              <input type='file' id='JeeWidgetFileInput' />
           </div>
 
-          <button id='JeeWidgetFileInputButton'><div class="buttonIcon"><i class="far fa-image"></i></div>Try on a picture</button>
+          <button id='JeeWidgetFileInputButton'><div class="buttonIcon"><i class="far fa-image"></i></div>选择一张图片</button>
         <!-- END UPLOAD PICTURE BUTTON -->
-        <!-- BACK TO REALTIME VIDEO BUTTON : --><button id='JeeWidgetBackToRealtimeButton'>Back to video</button>
+        <!-- BACK TO REALTIME VIDEO BUTTON : --><button id='JeeWidgetBackToRealtimeButton'>返回视频模式</button>
         <!-- ADJUST BUTTON : -->
         <div class='JeeWidgetBottomButton' id='JeeWidgetAdjust'>
-          <div class="buttonIcon"><i class="fas fa-arrows-alt"></i></div>Adjust the frame
+          <div class="buttonIcon"><i class="fas fa-arrows-alt"></i></div>调整眼镜
         </div>
-        <button id='buttonResizeCanvas' class='JeeWidgetBottomButton buttonResize' onclick='test_resizeCanvas();'><div class="buttonIcon"><i class="fas fa-sync-alt"></i></div>Resize canvas</button>
+        <button id='buttonResizeCanvas' class='JeeWidgetBottomButton buttonResize' onclick='test_resizeCanvas();'><div class="buttonIcon"><i class="fas fa-sync-alt"></i></div>调整canvas</button>
         <div id='JeeWidgetChangeModelContainer' class="changeModelContainer">
-          Change model:
-          <button class='changeModelButton buttonChange1' onclick="JEEWIDGET.load('rayban_aviator_or_vertFlash')">Model 1</button>
-          <button class='changeModelButton buttonChange1' onclick="JEEWIDGET.load('rayban_round_cuivre_pinkBrownDegrade')">Model 2</button>
-          <button class='changeModelButton buttonChange2' onclick="JEEWIDGET.load('rayban_wayfarer_denimNoir_bleuMirroir')">Model 3</button>        
+          选择眼镜:
+          <button class='changeModelButton buttonChange1' onclick="JEEWIDGET.load('rayban_aviator_or_vertFlash')">眼镜 1</button>
+          <button class='changeModelButton buttonChange1' onclick="JEEWIDGET.load('rayban_round_cuivre_pinkBrownDegrade')">眼镜 2</button>
+          <button class='changeModelButton buttonChange2' onclick="JEEWIDGET.load('rayban_wayfarer_denimNoir_bleuMirroir')">眼镜 3</button>        
         </div>
         <!-- BEGIN ADJUST NOTICE -->
         <div id='JeeWidgetAdjustNotice'>
-          You can move the glasses yeah !
-          <button class='JeeWidgetBottomButton' id='JeeWidgetAdjustExit'>Quit</button>
+          您现在可以调整眼镜的位置以及大小
+          <button class='JeeWidgetBottomButton' id='JeeWidgetAdjustExit'>退出</button>
         </div>
         <!-- END AJUST NOTICE -->
 
